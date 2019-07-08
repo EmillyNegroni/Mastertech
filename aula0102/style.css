@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-color:#38541bd1;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    height: 400px;
+    background-image: url("nova.jpg");
+    background-size: cover;
+}
+
+.banner h1, h4{
+    color:black;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;      
+}
+
+h1{
+    font-size: 35pt;
+    margin: 0;
+    padding: 45px;  
+}
+h3{
+    font-family: 'Candal', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h4{
+    font-family: 'Coustard', serif;
+    font-size: 25pt;
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color:#f0e4dc;
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width:300px;  
+   
+    
+}
+
+#btEnviar{
+    background-color: #38541bd1;
+    border:none;
+}
+
+input{
+   border-radius: 5px;
+   margin-bottom: 6px;
+   padding: 5px;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: #f0e4dc;
+    padding: 10px;
+    
+
+}
+
+footer img {
+    width: 50px;
+    padding: 10px;
+}
+
+footer p{
+    margin-bottom: 0px;
+}

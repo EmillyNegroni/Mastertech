@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+    font-family: 'Istok Web', sans-serif;           
+}
+
+nav{
+    background-color: black;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

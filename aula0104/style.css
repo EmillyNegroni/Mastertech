@@ -1,0 +1,112 @@
+body{
+    background-color: aquamarine;
+    margin: 0;  
+    display:grid;
+    grid-template-areas: 'nav nav nav nav'
+                        'header section segunda div'
+                        'footer footer footer footer';
+    grid-template-rows: 20vh  70vh 40vh;
+}
+
+header{
+    grid-area: header;
+    background-color: #5C7D98;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #01403A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    font-family: 'Literata', serif;
+}
+
+header, section, .seg, div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+nav a{
+    color:#B0C1D9;
+    text-decoration: none;
+    font-size: 16pt;
+    
+}
+
+nav a:hover{
+    color:blue;
+    text-decoration-line: underline;
+    transition: 0.3s;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    
+}
+section{
+    grid-area: section;
+    background-color:#9CC2C9;
+    font-family: 'Roboto Slab', serif;
+}
+
+.seg{
+    grid-area: segunda;
+    background-color: #718FB2;
+    font-family: 'Roboto Slab', serif;
+}
+
+div{
+    grid-area: div;
+    background-color:#94C5C3;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+footer{
+    grid-area: footer;
+    font-family: 'Sanchez', serif;
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+    background-color:darkgray;
+    color:black;
+    font-size:12pt;
+    
+}
+
+#paragrafo{
+    width: 90%;
+}
+
+@media (max-width:768px){
+    body{
+        grid-template-areas:'nav nav nav nav'
+                            'header header section section'
+                            'segunda segunda div div'
+                            'footer footer footer footer';
+        grid-template-rows: 20vh 70vh 70vh 40vh;
+    }
+    /* nav a{
+           display:none;
+       } */
+}
+
+@media(max-width:425px){
+    body{
+        grid-template-areas: 'nav nav nav nav'
+                              'header header header header'
+                              'section section section section'
+                              'segunda segunda segunda segunda'
+                              'div div div div'
+                              'footer footer footer footer';
+       grid-template-rows: 20vh 70vh 70vh 70vh 70vh 40vh  ;                      
+
+    }
+}
