@@ -1,0 +1,34 @@
+Anotaçoes dia 12/07 *Funçoes*
+
+.log (função)
+console.log ('fdgfheiog');
+A  declaração const cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. 
+Isso não significa que 
+o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída.
+
+função: bloco de codigo p reutilizaçaõ - trabalhar com eventos
+
+function myFunction(p1, p2) {
+  return p1 * p2;   // The function returns the product of p1 and p2
+}
+
+comando: function somar (uma função que soma ){
+    por boas praticas é recomendavel que o nome da função estaja no infinitivo
+}
+
+function somar (parametro coisas que determinan que minha funcao execute x tarefa) {
+     return a + b
+}
+
+toda funçaõ tem retorno (return )
+chamada de funçaõ = executar nossa função
+
+
+function somar (a,b) { essa primeira linha se chama assinatura da funçaõ 
+
+gerar numeros aleatorios 
+ return Math.floor(Math.random() * (max-min) + min; 
+ // numeros onde eu tenha que estipular o valor do meu intervalo p ex 5,10
+ entao sera valor de 5 á 10 
+}
+

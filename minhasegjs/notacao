@@ -1,0 +1,18 @@
+função REUTILIZAR CÓDIGO 
+A definição da função (também chamada de declaração de função) consiste no uso da palavra chave function, seguida por:
+
+Nome da Função.
+Lista de argumentos para a função, entre parênteses e separados por vírgulas.
+Declarações JavaScript que definem a função, entre chaves { }.
+function parOuImpar(a){
+     if (a % 2 == 0){
+         return  ' é par';
+     }
+     else{
+         return 'é impar';
+     }
+}
+
+function myFunction(p1, p2) {
+  return p1 * p2;   // The function returns the product of p1 and p2
+}
