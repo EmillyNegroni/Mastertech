@@ -1,0 +1,33 @@
+PYTHON
+.lower() 
+tratamento de erro )try excpt)
+ input (recebe uma informação)
+print (mostra na tela)
+variaveis só por o nome da  variavel exemplo:
+regra de boas praticas, mesmo esquema para nomear variaveis como C.
+nome_completo = "Emilly Negroni" (var do tipo string)
+quando não for atribuir o valor para minha VAR eu coloco ex:
+nome = ""   / nome = None (vazia)
+type (aqui eu coloco o nome da variavel) isso ovu saber o tipo da VAR
+class (é o type do type int,flor,str) na memoria  e lá 
+posso ver as funçoes pertecentes do type int,float,str)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ IS NOT / IS (UM É O   iNVERSSO DO OUTRO)
+type (nome da var) is type (nome variavel) está comparado se o tipo
+da var primeiro é igual o type da segunda var
+vai gerar false pois o type da primeira não é  como o da segunda
+
+
+type (nome da var) is not type (nome variavel) está comparado se o tipo
+da var primeiro é igual o type da segunda var
+retorna true poq vai gerar o inversso do primeiro ex
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ESTRURA DE DADOS: LISTA []
+LISTA USAMOS VETOR []
+salada_de_fruta = [] vetor vazio, lista vazia!
+
+adicionar um item na lista sempre no final!
+salada_de_frutas.append("Uva")
+==========================================================================
+def = function
+para saber o ind
