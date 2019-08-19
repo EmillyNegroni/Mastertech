@@ -76,3 +76,38 @@ print(' A temperatura em graus Farenheit convertida a graus Celsius é de: ' , C
 # sindicato = INSS - 0.05
 # salario_liquido = sindicato
 # print(salario_liquido)
+
+#------------------------EXERCICIO ESTRUTURA DE DECISÃO----------------------------------------------#
+#01)Faça um Programa que peça dois números e imprima o maior deles.
+numero01 = int(input('Informe o primeiro número:'))
+numero02 = int(input('Informe o segundo número: '))
+if numero01 >= numero02:
+    print(' Número maior é o:' , numero01)
+    
+else:
+    print('Número maior é o:' , numero02)
+
+#02)Faça um programa para a leitura de duas notas parciais de um aluno. 
+# O programa deve calcular a média alcançada por aluno e apresentar:
+#A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+#A mensagem "Reprovado", se a média for menor do que sete;
+nota1 = float(input('Informe sua primeira nota:'))
+nota2 = float(input('Informe sua segunda nota:'))
+nota3 = float(input('Informe sua terceira nota:'))
+nota4 = float(input('Informe sua quarta nota:'))
+nota5 = float(input('Informe sua quinta nota:'))
+media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+print('Sua média é :' , media)
+if (media >= 7):
+    print('Parabens voce foi aprovado!')
+    # elif (media == 10):
+    #     print ('Aprovado com distinção!')
+else:
+    print ('Reprovado!')
+
+#03) Positivo ou negativo
+number1 = float(input(' Informe um  número: '))
+if number1 > 0:
+    print(number1 ,'Positivo')
+else:
+    print(number1 , 'Negativo')
